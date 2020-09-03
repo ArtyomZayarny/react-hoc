@@ -7,7 +7,7 @@ import React,{useState} from 'react'
             window.alert(`HEllo ${name}`)
         }
         const SmartButton = () => {
-            return <OriginalComponent name={name} onAlert={alert}/>
+            return <OriginalComponent name={name} click={alert}/>
         }
 
     return SmartButton
